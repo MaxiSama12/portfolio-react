@@ -1,0 +1,16 @@
+article{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fotoPortada{
+    background-image: url(../../public/WhatsApp\ Image\ 2025-04-06\ at\ 19.17.11.jpeg);
+    height: 300px;
+    max-width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding-top: 1rem;
+}
