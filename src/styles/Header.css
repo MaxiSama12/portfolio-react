@@ -1,16 +1,58 @@
-article{
-    margin: 0 auto;
-    text-align: center;
+.contenedorHeader{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4rem; 
+    border-radius: 5px;
+    height: 30.2rem;
 }
 
-.fotoPortada{
+.contenedorHeader p {
+    font-size: 1.6rem;
+}
+
+.fotoPortada{ 
+    margin-left: 12%;
+    border-radius: 15px;
+    width: 27rem;
     background-image: url(../../public/WhatsApp\ Image\ 2025-04-06\ at\ 19.17.11.jpeg);
-    height: 300px;
-    max-width: 270px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-h1{
-    padding-top: 1rem;
+.txtTitulo{
+    align-content: center; 
+    width: 45%;
+}
+
+.txtTitulo h1{
+    font-size: 7rem; 
+    border-radius: 6px;
+}
+
+.navegador {
+    background-color: rgba(0, 0, 0, 0.616);
+    position: sticky;
+    top: 0;
+}
+
+.nav-link {
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.nav-link.active {
+    color: rgb(224, 80, 80) !important;
+    text-decoration: underline;
+}
+
+.colorRojo {
+    color: rgb(224, 80, 80);
+}
+
+
+.centrador {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
 }

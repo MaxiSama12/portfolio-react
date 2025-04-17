@@ -1,9 +1,27 @@
-import React from 'react'
+import Card from 'react-bootstrap/Card';
 
-const SoftSkills = () => {
+function BgColorExample() {
   return (
-    <div>SoftSkills</div>
-  )
+    <>
+        <div className='contenedorHabilidades' id='soft_Skills'>
+          <h3><b>Habilidades blandas</b></h3>
+              <ul>
+              {[
+                'Respetuoso',
+                'Buen trabajo en equipo',
+                'Pensamiento técnico',
+                'Comprensivo',
+                'Responsable',
+                'Proactivo'
+              ].map((cualidades) => (
+                
+                <li><b>{cualidades}</b></li>
+                
+              ))}
+              </ul>
+        </div>
+    </>
+  );
 }
 
-export default SoftSkills
+export default BgColorExample;
