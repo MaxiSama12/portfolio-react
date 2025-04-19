@@ -1,5 +1,90 @@
 .presentacion {
-    margin: 0 auto;
-    width: 700px;
-    padding-top: 2rem;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 19.5rem;
+  padding-top: 4rem;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.presentacion article {
+  margin-top: 0.4rem;
+}
+
+.habilidades {
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.contenedorHabilidades {
+  background-color: rgb(150, 23, 23);
+  width: 23rem; 
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  margin-top: -2rem;
+  border-radius: 0.2rem;
+}
+
+.experiencia {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.experiencia h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.cardProyecto { 
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 25rem;
+  height: 31rem;
+}
+
+.cardProyecto h3{ 
+  font-weight: bold;
+  margin: 1rem;
+}
+
+
+.cardProyecto p{ 
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+
+.imgProyectoReposteria {
+  width: 100%;
+  height: 11.3rem;
+  background-image: url(../../public/reposteriaPlaza.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.imgProyectoBlog {
+  width: 100%;
+  height: 11.3rem;
+  background-image: url(../../public/blogCafe.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.imgProyectoControlador {
+  width: 100%;
+  height: 11.3rem;
+  background-image: url(../../public/controladorStock.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }

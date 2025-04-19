@@ -1,17 +1,30 @@
-import React from 'react'
 import '../styles/Header.css'
+import Navegador from './Navegador'
+
 const Header = () => {
   //Nombre del alumno: Samaniego Esteban Maximiliano. 
   //LEGAJO: 61468.
   return (
     <>
-    <article className='fotoPortada'>
-    
-    </article>
-    <article>
+    <div  id='sobre_Mi'></div>
+    <div className='centrador navegador'>
+    <Navegador/>
+    </div>
+    <div className='contenedorHeader' >
 
-    <h1>Esteban Samaniego</h1>
-    </article>
+
+      <div className='fotoPortada'>
+
+      </div>
+      
+
+      <div className='txtTitulo'>
+      <p><b>¡Hola!, soy<u className='colorRojo'> Esteban Samaniego,</u></b></p>
+      <h1>Desarrollador <b><u className='colorRojo'><br />Back End.</u></b></h1>
+      </div>
+    
+    </div>
+
     </>
   )
 }
