@@ -1,7 +1,7 @@
 function BgColorExample() {
   return (
     <>
-        <div className='contenedorHabilidades' id='soft_Skills'>
+        <div className='contenedorHabilidades'>
           <h3><b>Habilidades blandas</b></h3>
               <ul>
               {[

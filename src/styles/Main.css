@@ -30,15 +30,26 @@
   border-radius: 0.2rem;
 }
 
-.experiencia {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  margin-top: 2rem;
-  margin-bottom: 10rem;
+.proyectosTitulo {
+  position: relative;
+  top: -5rem;
+  z-index: -1;
+  background-color:  #111111;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
 }
 
-.experiencia h2 {
+.proyectos {
+  display: flex;
+  justify-content: center;
+  background-color:  #111111;
+  gap: 5rem;
+  margin-top: -8rem;
+  margin-bottom: 5rem;
+  padding-bottom: 6rem;
+}
+
+.proyectos h2 {
   text-align: center;
   font-size: 3rem;
 }
@@ -87,4 +98,103 @@
   background-image: url(../../public/controladorStock.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.x {
+  height: 1rem;
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color:rgb(150, 23, 23);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.timeline-item {
+  padding: 20px 40px;
+  position: relative;
+  width: 50%;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(150, 23, 23);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.left::after {
+  right: -10px;
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -10px;
+}
+
+.content {
+  padding: 20px;
+  background-color: rgb(31, 30, 30);
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(224, 80, 80);
+}
+
+.job-company {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.job-dates {
+  color: #999;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline::after {
+    left: 10px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .timeline-item::after {
+    left: 0;
+  }
+
+  .right {
+    left: 0;
+  }
 }
