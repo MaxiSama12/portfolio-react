@@ -20,7 +20,7 @@ const Header = () => {
 
       <div className='txtTitulo'>
       <p><b>¡Hola!, soy<u className='colorRojo'> Esteban Samaniego,</u></b></p>
-      <h1>Desarrollador <b><u className='colorRojo'><br />Back End.</u></b></h1>
+      <h1>Desarrollador <b><u className='colorRojo'><br />Full Stack.</u></b></h1>
       </div>
     
     </div>

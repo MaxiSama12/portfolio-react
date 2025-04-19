@@ -23,7 +23,7 @@ const Main = () => {
         <SoftSkills />
         <Estudios />
       </div>
-      <div className="text-center my-5">
+      <div className="text-center my-5" id="proyectos">
         <h2>Proyectos</h2>
       </div>
       <section className="experiencia">
