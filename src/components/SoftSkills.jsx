@@ -1,4 +1,4 @@
-import Card from 'react-bootstrap/Card';
+
 
 function BgColorExample() {
   return (
@@ -12,7 +12,8 @@ function BgColorExample() {
                 'Pensamiento técnico',
                 'Comprensivo',
                 'Responsable',
-                'Proactivo'
+                'Proactivo',
+                'Inglés B1+'
               ].map((cualidades) => (
                 
                 <li><b>{cualidades}</b></li>
