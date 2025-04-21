@@ -13,7 +13,6 @@
 }
 
 .fotoPortada{ 
-    margin-left: 12%;
     border-radius: 15px;
     width: 27rem;
     background-image: url(../../public/WhatsApp\ Image\ 2025-04-06\ at\ 19.17.11.jpeg);
@@ -56,3 +55,48 @@
     justify-content: center;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .contenedorHeader {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: auto;
+      padding: 2rem 1rem;
+    }
+  
+    .fotoPortada {
+      margin: 0;
+      width: 60%;
+      height: 30rem;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .txtTitulo {
+      width: 100%;
+    }
+  
+    .txtTitulo h1 {
+      font-size: 4rem;
+    }
+  
+    .contenedorHeader p {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .txtTitulo h1 {
+      font-size: 2.5rem;
+    }
+  
+    .contenedorHeader p {
+      font-size: 1.1rem;
+    }
+  
+    .fotoPortada {
+      height: 15rem;
+    }
+  }
+  

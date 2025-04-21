@@ -4,15 +4,17 @@
   justify-content: center;
   align-items: start;
   width: 100%;
-  height: 19.5rem;
-  padding-top: 4rem;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
   margin-top: 4rem;
   font-size: 1.5rem;
   padding-bottom: 1rem;
 }
 
 .presentacion article {
-  margin-top: 0.4rem;
+  width: 80%;
+  padding-bottom: 2rem;
 }
 
 .habilidades {
@@ -78,7 +80,7 @@
   width: 100%;
   height: 11.3rem;
   background-image: url(../../public/reposteriaPlaza.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
 }
@@ -96,7 +98,7 @@
   width: 100%;
   height: 11.3rem;
   background-image: url(../../public/controladorStock.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -196,5 +198,50 @@
 
   .right {
     left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .habilidades {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .proyectos {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 1rem 6rem 1rem;
+  }
+
+  .cardProyecto {
+    width: 60%;
+    height: auto;
+  }
+
+  .presentacion article {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .presentacion {
+    font-size: 1.2rem;
+    padding: 2rem 1rem;
+    height: auto;
+    text-align: center;
+  }
+
+  .proyectosTitulo h2 {
+    font-size: 2rem;
+  }
+
+  .job-title {
+    font-size: 1rem;
+  }
+
+  .job-dates {
+    font-size: 0.8rem;
   }
 }
