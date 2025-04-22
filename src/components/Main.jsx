@@ -95,11 +95,12 @@ const Main = () => {
               ingresos y egresos, además de gestionar el stock disponible de
               cada producto.
             </p>
+            <div id="experiencia"></div>
           </article>
         </article>
       </section>
        
-    <div id="experiencia" className="my-5 x"></div>
+    <div  className="my-5 x"></div>
       <section >
 
       <h2 className="text-center" >Experiencia Laboral</h2>
