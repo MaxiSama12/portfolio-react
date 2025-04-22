@@ -1,0 +1,33 @@
+.nav-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap; /* Permite que los links bajen de línea si no entran */
+  }
+  
+  .link-nav {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .link-nav:hover {
+    color: #ffc107;
+  }
+  
+  /* Media Query para pantallas pequeñas */
+  @media (max-width: 576px) {
+    .nav-links {
+      justify-content: space-around;
+      gap: 0.5rem;
+    }
+  
+    .link-nav {
+      font-size: 0.9rem;
+      padding: 0.3rem 0.5rem;
+    }
+  }
+  
