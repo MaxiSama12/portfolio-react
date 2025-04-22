@@ -84,7 +84,8 @@
     .contenedorHeader p {
       font-size: 1.3rem;
     }
-  }
+ 
+  } 
   
   @media screen and (max-width: 600px) {
     .txtTitulo h1 {
@@ -98,5 +99,15 @@
     .fotoPortada {
       height: 15rem;
     }
+    .navegador {
+      background-color: rgb(0, 0, 0);
+      position: sticky;
+      top: 0;
+      right: 0;
+      z-index: 1;
+  }
+  .centrador {
+    display: block;
+  }
   }
   
