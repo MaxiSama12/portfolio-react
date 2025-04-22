@@ -17,18 +17,18 @@ const Main = () => {
               importantes.
             </b>
           </p>
-          <div id="soft_Skills"></div>
         </article>
+          <div id="soft_Skills"></div>
       </div>
 
       <div className="habilidades">
         <SoftSkills />
         <Estudios />
       </div>
-        <div id="proyectos"></div>
+        <div ></div>
 
       <div className="text-center my-5 proyectosTitulo" >
-        <h2>Proyectos</h2>
+        <h2 >Proyectos</h2>
       </div>
 
       <section className="proyectos">
