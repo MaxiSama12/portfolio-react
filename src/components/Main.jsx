@@ -40,6 +40,7 @@ const Main = () => {
                 <a
                   href="https://reposteriaplazasrl.netlify.app/"
                   target="_BLANK"
+                  rel="noreferrer"
                 >
                   Reposteria Plaza
                 </a>
@@ -64,6 +65,7 @@ const Main = () => {
                 <a
                   href="https://candid-cendol-144aa4.netlify.app/"
                   target="_BLANK"
+                  rel="noreferrer"
                 >
                   Blog de Café
                 </a>
